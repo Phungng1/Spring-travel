@@ -1,0 +1,102 @@
+.carousel{
+    margin: 0 0 20px;
+}
+
+.carousel-item img{
+    width: 100vh;
+    height: 1000px;
+    transition: 03s;
+}
+
+.below-nav{
+    width: 1000px;
+    margin: auto;
+
+}
+
+.below-nav .features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.below-nav .features .element{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.below-nav .features .element i{
+    font-size: 20px;
+    color: orange;
+    
+}
+
+.below-nav .features .element h3{
+    
+    font-size: 30px;
+    
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* TRENDING---------------------------------------------------------------------------------------- */
+
+#trending{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+#trending  a{
+    text-decoration: none;
+    width: 100%;
+}
+
+#trending  a figure{
+    width: 100%;
+}
+
+#trending a img{
+    width: 100%;
+}
+
+#trending a figure figcaption{
+    background-color: rgb(36, 133, 176, 0.8);
+    color: white;
+    padding: 17px;
+}
+
+#trending a figure figcaption h3{
+    text-transform: uppercase;
+}
+
+#trending a figure figcaption ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
