@@ -1,21 +1,39 @@
-let getTrending = JSON.parse(localStorage.getItem("trending"));
+let getHotel = JSON.parse(localStorage.getItem("hotel"))
 
-const divTrending = document.getElementById(trending);
+const divHotel = document.getElementById("hotel");
 
-for (key of getTrending){
-    divTrending.innerHTML +=
+for (let key of getHotel){
+    console.log(key);
+    divHotel.innerHTML += 
     `
-    <div>
-            <img src="${"../assets/" + key.image}" alt="Not found">
-            <h5>${key.title}</h5>
-            <p></p>
-            <div class="stars">
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
-        </div>
+    <a href="../hotel/jade.html">
+            <figure class="box">
+                <img src="${"../assets/trending/" + key.image}" alt="">
+                <figcaption>
+                    <h3>${key.title}</h3>
+                    <span><i class="fa-solid fa-location-dot"></i>${key.location}</span>
+                    <ul class="rate">
+                        <li class="number">4.5</li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star-half-alt"></i>
+                        </li>
+                    </ul>
+                    
+                </figcaption>
+            </figure>
+        </a>
+
     `
 }

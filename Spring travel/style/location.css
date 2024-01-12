@@ -10,6 +10,68 @@ body{
 }
 
 .content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    gap: 20px;
+}
+
+
+
+.content>a {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,.2);
+    text-decoration: none;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.content>a:hover{
+    transform: translateY(-5px);
+}
+
+.content>a figure img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.content >a figure figcaption{
+    padding: 0 5px;
+}
+
+.content >a figure figcaption span i{
+    margin-right: 5px;
+}
+
+.content > a figure figcaption ul{
+    display: flex;
+    list-style: none;
+    color: orange;
+    gap: 5px;
+    font-size: 16px;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .content {
     background-color: #f6f3e9;
     height: fit-content;
     display: grid;
@@ -28,6 +90,11 @@ body{
     box-shadow: 5px 6px 5px 6px rgba(0,0,0,.1);
     padding-bottom: 0;
     text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+
+.content >a:hover{
+    transform: translateY(-10px);
 }
 
 .content > a figure{
@@ -37,9 +104,11 @@ body{
 
 .content > a figure img{
     width: 100%;
-    height: 100%;
+    height: 200px;
 
 }
+
+
 
 .content > a figure figcaption{
     background-color: gray;
@@ -57,7 +126,10 @@ body{
 }
 
 
-
+.fa-solid{
+    text-decoration: none;
+    text-transform: none;
+} */
 
 
 

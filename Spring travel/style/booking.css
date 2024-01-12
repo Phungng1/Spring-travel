@@ -8,17 +8,38 @@
 .content{
     margin: auto;
     width: 1000px;
-    display: flex;
+    padding: 50px 60px;
     justify-content: space-around;
     gap: 0;
+    background-color: white;
 }
 
+body{
+    background-image: url(../assets/background/booking.jpg);
+}
 
+.cover{
+    
+    background-color: rgba(0,0,0,.5);
+    align-items: center;
+}
+
+.cover >div{
+    
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+}
 .content .info form input{
     width: 100%;
-    margin: 5px 0;
-    padding: 4px 4px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: #d9d9d9 solid 1px;
     transition: 0.3s ease;
+    outline: none;
 }
 .content .info form input:focus {
     border: 1px solid #33b5e5;
@@ -26,23 +47,57 @@
 }
 
 .content .booking{
-    width: 400px;
+    width: 100%;
+}
+
+.content .booking label{
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 .content .booking select{
     padding: 5px;
     
 }
+
+.content .booking option{
+    width: fit-content;
+}
+
 .content .booking form{
     margin-bottom: 10px;
 }
-textarea{
+.content .booking input{
     width: 100%;
-    height: 50%;
-    padding: 4px 4px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: #d9d9d9 solid 1px;
     transition: 0.3s ease;
+    outline: none;
+    margin: 20px 0;
 }
-.content .booking textarea:focus {
+.content .booking input:focus {
     border: 1px solid #33b5e5;
     color: #333333;
+}
+
+button.submit{
+    color: white;
+    background-color: rgba(26, 81, 126, 0.8);
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all ease-in-out 0.3s;
+    border: none;
+}
+
+button.submit:hover{
+    background-color: rgba(29, 172, 185, 0.8)
+}
+
+.booking{
+    margin: 30px 0;
 }

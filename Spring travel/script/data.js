@@ -1,38 +1,57 @@
-const trending = [
+const hotel = [
     {
-        title : "Hanoi",
-        image : "hanoi.jpeg"
+        title : "The Jade Hotel",
+        image : "jade.jpg",
+        location: "Hanoi",
     },
     {
-        title : "Ho Chi Minh City",
-        image : "saigon.jpeg"
+        title : "La Siesta Classic ",
+        image : "mamay.jpg",
+        location: "Hanoi",
     },
     {
-        title : "Hue",
-        image : "hue.jpeg"
+        title : "La Siesta Resort",
+        image : "resort.jpg",
+        location: "Hoi An",
     },
     {
-        title : "Da Nang",
-        image : "hanoi.jpeg"
+        title : "Allegro Luxury",
+        image : "allegro.jpg",
+        location: "Nha Trang",
     },
     {
-        title : "Sa Pa",
-        image : "hanoi.jpeg"
+        title : "Premier Village",
+        image : "premier.jpg",
+        location: "Da Nang",
     },
     {
-        title : "Trang An",
-        image : "trangan.jpeg"
+        title : "Solaria Hotel",
+        image : "solaria.jpg",
+        location: "Ho Chi Minh City",
     },
     {
-        title : "Moc Chau",
-        image : "mocchau.jpeg"
+        title : "Anio Boutique",
+        image : "anio.jpg",
+        location: "Hue",
     },
+    {
+        title : "Grand Mercure",
+        image : "mercure.jpg",
+        location: "Hanoi",
+    },
+    {
+        title : "Hôtel de la Coupole",
+        image : "coupole.jpg",
+        location: "Phu Quoc",
+    },
+    {
+        title : "Fraser Suite",
+        image : "fraser.jpg",
+        location: "Sai Gon",
+    },
+
 ]
 
 
 
-
-
-
-
-localStorage.setItem("trending", JSON.stringify(trending));
+localStorage.setItem("hotel", JSON.stringify(hotel));

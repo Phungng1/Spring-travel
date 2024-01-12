@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.banner{
+    background-image: url(../assets/detail/jade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner .text{
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.banner .text a{
+    color: white;
+    background-color: rgb(26, 126, 26, .8);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all ease-in-out 0.3s;
+}
+
+.banner .text a:hover{
+    background-color: rgba(29, 185, 29, 0.8)
+}
+
+.banner h1{
+    font-size: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: orange;
+    gap: 5px;
+    font-size: 16px;
+    padding-right: 32px;
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+
+
+.container .describe{
+    padding: 10px ;
+    width: 100%;
+}
+
+.container .order{
+    width: 100%;
+    padding: 10px;
+}
+
+.container .order .available .el{
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 5px 2px 5px rgba(0,0,0,.2);
+}
+
+.container .order .available{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.container .order .available img{
+    width: 175px;
+    height: 100px;
+}
+
+iframe{
+    width: 100%;
+}

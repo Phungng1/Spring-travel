@@ -2,29 +2,33 @@
     text-decoration: none;
 }
 
-footer {
-    background-color: rgba(0, 0, 0);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: aliceblue;
+footer{
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://btnmt.1cdn.vn/2022/04/19/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    color: white;
+}
+footer .out{
     padding: 100px 0;
-    
+    background-color: rgba(0,0,0,.6);
 }
-
-footer>i {
+footer .out .fa-solid{
     font-size: 100px;
+    margin-bottom: 30px;
 }
 
-footer .sm {
-    width: 300px;
-    margin: auto;
+footer .sm{
+    
+    width: 20%;
     display: flex;
     justify-content: space-around;
-    padding: 30px 0 0;
+    margin: auto;
 }
-
-footer .sm i {
+footer .out .sm i{
     font-size: 40px;
-    text-decoration: none;
+    
 }

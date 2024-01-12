@@ -29,8 +29,8 @@ body{
 
 .container h1{
     text-align: center;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-family: 'Nanum Myeongjo', serif;
     font-weight: lighter;
     color: #33B5E5;
     margin-bottom: 40px;
@@ -77,3 +77,10 @@ button{
 button:hover{
     background: #178ab4;
 }
+.home{
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
