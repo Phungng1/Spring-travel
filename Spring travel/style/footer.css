@@ -14,11 +14,11 @@ footer{
 }
 footer .out{
     padding: 100px 0;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.7);
 }
 footer .out .fa-solid{
-    font-size: 100px;
-    margin-bottom: 30px;
+    font-size: 200px;
+    margin-bottom: 60px;
 }
 
 footer .sm{
@@ -29,6 +29,11 @@ footer .sm{
     margin: auto;
 }
 footer .out .sm i{
-    font-size: 40px;
-    
+    font-size: 60px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+footer .out .sm i:hover{
+    color: grey;
 }

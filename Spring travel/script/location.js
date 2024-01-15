@@ -6,7 +6,7 @@ for (let key of getHotel){
     console.log(key);
     divHotel.innerHTML += 
     `
-    <a href="../hotel/jade.html">
+    <a href="${"../hotel/" + key.address}">
             <figure class="box">
                 <img src="${"../assets/trending/" + key.image}" alt="">
                 <figcaption>
