@@ -60,7 +60,95 @@ body{
 }
 
 
+.timkiem{
+    width: 1500px;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
 
+.timkiem .context{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timkiem h1{
+    text-align: center;
+}
+.timkiem input{
+    width: 30%;
+    font-size: 15px;
+    border: #d9d9d9 solid 1px;
+    transition: 0.3s ease;
+    outline: none;
+    padding: 10px;
+}
+
+.timkiem input:focus{
+    border: 1px solid #33b5e5;
+    color: #333333;
+}
+
+.timkiem .context button{
+    margin-top: 30px;
+    padding: 5px 20px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+  #result {
+    width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    gap: 20px;
+}
+
+#result > a img{
+    height: 220px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#result>a {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,.2);
+    text-decoration: none;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+#result>a:hover{
+    transform: translateY(-5px);
+}
+
+.content>a figure img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+#result >a figure figcaption{
+    padding: 0 5px;
+}
+
+#result >a figure figcaption span i{
+    margin-right: 5px;
+}
+
+#result> a figure figcaption ul{
+    display: flex;
+    list-style: none;
+    color: orange;
+    gap: 5px;
+    font-size: 16px;
+    padding-left: 0;
+    font-size: 20px;
+}
 
 
 

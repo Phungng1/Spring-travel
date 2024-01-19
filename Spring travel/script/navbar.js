@@ -19,9 +19,7 @@ divNavbar.innerHTML += `
     <div class="drop">
         <a href="../html/about us.html">About Us</a>
     </div>
-    <div class="drop">
-        <a href="../html/contact.html">Contact</a>
-    </div>
+    
 </div>
 
 
